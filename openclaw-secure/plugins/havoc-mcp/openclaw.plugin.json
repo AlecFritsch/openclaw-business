@@ -1,0 +1,10 @@
+{
+  "id": "havoc-mcp",
+  "name": "Havoc MCP (Smithery Connect)",
+  "description": "Injects MCP tools from Smithery Connect (Intercom, Slack, GitHub, Notion, etc.) into the agent",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "havoc-superchat",
+  "name": "OpenClaw Business Superchat",
+  "description": "Full Superchat integration: send messages, read conversations, search contacts, list channels (WhatsApp, Instagram, Messenger, Email, SMS)",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

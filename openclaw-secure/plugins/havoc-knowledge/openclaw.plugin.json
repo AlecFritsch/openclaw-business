@@ -1,0 +1,6 @@
+{
+  "id": "havoc-knowledge",
+  "name": "OpenClaw Business Knowledge Base",
+  "description": "Search the organization's knowledge base (files, websites, Notion, Google Drive) via RAG",
+  "configSchema": { "type": "object", "additionalProperties": false, "properties": {} }
+}

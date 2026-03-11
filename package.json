@@ -1,0 +1,26 @@
+{
+  "name": "openclaw-business",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:shared": "pnpm --filter @openclaw-business/shared build",
+    "build:backend": "pnpm build:shared && pnpm --filter @openclaw-business/backend build",
+    "build:frontend": "pnpm --filter @openclaw-business/frontend build",
+    "build": "pnpm build:shared && pnpm build:backend && pnpm build:frontend",
+    "dev:shared": "pnpm --filter @openclaw-business/shared dev",
+    "dev:backend": "pnpm --filter @openclaw-business/backend dev",
+    "dev:frontend": "pnpm --filter @openclaw-business/frontend dev",
+    "dev": "pnpm build:shared && concurrently \"pnpm dev:shared\" \"pnpm dev:backend\" \"pnpm dev:frontend\"",
+    "dev:simple": "pnpm build:shared && concurrently \"pnpm dev:backend\" \"pnpm dev:frontend\"",
+    "lint": "pnpm --filter @openclaw-business/backend lint && pnpm --filter @openclaw-business/frontend lint",
+    "typecheck": "pnpm build:shared && pnpm --filter @openclaw-business/backend exec tsc --noEmit && pnpm --filter @openclaw-business/frontend exec tsc --noEmit"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "motion": "^12.35.0",
+    "nextstepjs": "^2.2.0"
+  }
+}

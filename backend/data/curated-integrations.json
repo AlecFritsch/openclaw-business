@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "description": "Curated integrations — additional MCP servers and skills beyond Smithery verified registry",
+  "servers": [
+    {
+      "qualifiedName": "smithery-ai/fetch",
+      "displayName": "Fetch",
+      "description": "Fetch and parse web content — HTML, JSON, plain text. Useful for scraping and API calls.",
+      "mcpUrl": "https://fetch.run.tools",
+      "iconUrl": "https://spjawbfpwezjfmicopsl.supabase.co/storage/v1/object/public/server-icons/ddc7b706-b403-4217-8df7-dd7a065eae4d.svg",
+      "homepage": "https://smithery.ai/servers/smithery-ai/fetch"
+    },
+    {
+      "qualifiedName": "Nekzus/npm-sentinel-mcp",
+      "displayName": "NPM Sentinel",
+      "description": "Search npm packages, check versions, dependencies, and security advisories.",
+      "mcpUrl": "https://npm-sentinel-mcp.run.tools",
+      "iconUrl": "https://spjawbfpwezjfmicopsl.supabase.co/storage/v1/object/public/server-icons/5dcdd4c9-21f1-4e59-afe1-a203168cf1ef.png",
+      "homepage": "https://smithery.ai/servers/Nekzus/npm-sentinel-mcp"
+    },
+    {
+      "qualifiedName": "kwp-lab/rss-reader-mcp",
+      "displayName": "RSS Reader",
+      "description": "Read and parse RSS/Atom feeds. Monitor news, blogs, and content sources.",
+      "mcpUrl": "https://rss-reader-mcp.run.tools",
+      "iconUrl": null,
+      "homepage": "https://smithery.ai/servers/kwp-lab/rss-reader-mcp"
+    },
+    {
+      "qualifiedName": "sfiorini/youtube-mcp",
+      "displayName": "YouTube",
+      "description": "Search YouTube videos, get transcripts, channel info, and video metadata.",
+      "mcpUrl": "https://youtube-mcp.run.tools",
+      "iconUrl": "https://spjawbfpwezjfmicopsl.supabase.co/storage/v1/object/public/server-icons/1f4f267c-d6d8-4f88-8fed-228b834c308f.svg",
+      "homepage": "https://smithery.ai/servers/sfiorini/youtube-mcp"
+    },
+    {
+      "qualifiedName": "anirbanbasu/frankfurtermcp",
+      "displayName": "Frankfurter Currency",
+      "description": "Real-time and historical currency exchange rates via the Frankfurter API.",
+      "mcpUrl": "https://frankfurtermcp.run.tools",
+      "iconUrl": "https://spjawbfpwezjfmicopsl.supabase.co/storage/v1/object/public/server-icons/ec10c8a5-73cd-44fc-b75e-46a875266f92.png",
+      "homepage": "https://smithery.ai/servers/anirbanbasu/frankfurtermcp"
+    }
+  ],
+  "skills": []
+}

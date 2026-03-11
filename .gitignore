@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment (never commit real .env; .env.example is the template)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OpenClaw
+/var/openclaw/
+openclaw-workspaces/
+# Fork cloned locally for Docker build (not in repo)
+openclaw-fork/
+
+# Docker
+docker-compose.override.yml
+
+# Old migration files
+MIGRATION.md
+RESTRUCTURE.md
+
+# Sensitive / local (open-source: never commit)
+.cursor/mcp.json
+.kiro/
+**/.kiro/
+deploy/.env
+**/deploy/.env
