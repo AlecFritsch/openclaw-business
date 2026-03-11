@@ -39,7 +39,7 @@ export async function sendInviteEmail(params: {
   <div style="max-width:480px;margin:32px auto;padding:32px;background:white;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,0.08);">
     <h1 style="margin:0 0 16px;font-size:20px;font-weight:600;color:#111;">You're invited to ${orgName}</h1>
     <p style="margin:0 0 24px;font-size:14px;color:#555;line-height:1.6;">
-      ${inviterName} has invited you to join <strong>${orgName}</strong> on Havoc as <strong>${role}</strong>.
+      ${inviterName} has invited you to join <strong>${orgName}</strong> on OpenClaw Business as <strong>${role}</strong>.
     </p>
     <p style="margin:0 0 24px;font-size:14px;color:#555;line-height:1.6;">
       Click the button below to accept the invitation and get started.
@@ -62,7 +62,7 @@ export async function sendInviteEmail(params: {
     const result = await client.emails.send({
       from: config.resendFromEmail,
       to: [to],
-      subject: `${inviterName} invited you to ${orgName} on Havoc`,
+      subject: `${inviterName} invited you to ${orgName} on OpenClaw Business`,
       html,
     });
 

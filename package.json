@@ -1,7 +1,13 @@
 {
   "name": "openclaw-business",
   "version": "0.1.0",
+  "description": "Open-source AI agent platform for business — Integrations, Missions, Audit Logs, AI Builder",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlecFritsch/openclaw-buisness"
+  },
+  "keywords": ["openclaw", "ai-agents", "business", "open-source"],
   "scripts": {
     "build:shared": "pnpm --filter @openclaw-business/shared build",
     "build:backend": "pnpm build:shared && pnpm --filter @openclaw-business/backend build",

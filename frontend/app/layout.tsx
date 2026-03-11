@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Havoc - AI Mitarbeiter für dein Business",
+    title: "OpenClaw Business - AI Agents für dein Business",
     description: "Stelle autonome AI Agents ein, die 24/7 für dein Unternehmen arbeiten. DSGVO-konform, EU-hosted.",
   },
   keywords: ["AI Mitarbeiter", "AI Agents", "autonome AI", "AI für Unternehmen", "DSGVO AI", "AI Workforce", "Business AI", "AI Automatisierung"],

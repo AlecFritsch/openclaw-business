@@ -63,6 +63,8 @@ pnpm dev
 
 See [.env.example](.env.example) for required variables (MongoDB, Clerk, etc.).
 
+**Self-hosting:** Replace `your-domain.com`, `support@your-domain.com`, and similar placeholders with your own domain and contact email.
+
 ## Building the Agent Docker Image
 
 The `openclaw-secure` image requires an OpenClaw fork with SaaS/Docker changes (device-local IPs, pairing-silent, etc.). Publish your fork and build with:

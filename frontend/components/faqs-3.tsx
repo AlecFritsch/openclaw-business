@@ -39,7 +39,7 @@ export default function FAQs() {
                 <p className="text-muted-foreground mt-8 text-center text-sm">
                     {t('faq.contact')}{' '}
                     <Link
-                        href="mailto:support@example.com"
+                        href="mailto:support@your-domain.com"
                         className="text-primary font-medium hover:underline">
                         {t('faq.contactLink')}
                     </Link>

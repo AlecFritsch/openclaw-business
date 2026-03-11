@@ -37,7 +37,7 @@ export default function PrivacyPage() {
 
           <section className="space-y-3">
             <h2 className="text-lg font-medium text-foreground">5. Contact</h2>
-            <p>For privacy inquiries, contact us at <a href="mailto:privacy@usehavoc.com" className="underline hover:text-foreground">privacy@usehavoc.com</a>.</p>
+            <p>For privacy inquiries, contact your platform operator (self-hosted: configure SUPPORT_EMAIL in your deployment).</p>
           </section>
         </div>
       </div>

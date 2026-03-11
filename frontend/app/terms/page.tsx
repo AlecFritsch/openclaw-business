@@ -17,12 +17,12 @@ export default function TermsPage() {
 
           <section className="space-y-3">
             <h2 className="text-lg font-medium text-foreground">1. Acceptance of Terms</h2>
-            <p>By accessing and using Havoc, you agree to be bound by these Terms of Service. If you do not agree, do not use our services.</p>
+            <p>By accessing and using this platform, you agree to be bound by these Terms of Service. If you do not agree, do not use our services.</p>
           </section>
 
           <section className="space-y-3">
             <h2 className="text-lg font-medium text-foreground">2. Service Description</h2>
-            <p>Havoc provides an AI agent deployment and management platform. We offer tools for building, deploying, and monitoring AI agents across multiple communication channels.</p>
+            <p>This platform provides an AI agent deployment and management solution. It offers tools for building, deploying, and monitoring AI agents across multiple communication channels.</p>
           </section>
 
           <section className="space-y-3">
@@ -42,7 +42,7 @@ export default function TermsPage() {
 
           <section className="space-y-3">
             <h2 className="text-lg font-medium text-foreground">6. Contact</h2>
-            <p>For questions about these terms, contact us at <a href="mailto:legal@usehavoc.com" className="underline hover:text-foreground">legal@usehavoc.com</a>.</p>
+            <p>For questions about these terms, contact your platform operator (self-hosted: configure SUPPORT_EMAIL in your deployment).</p>
           </section>
         </div>
       </div>

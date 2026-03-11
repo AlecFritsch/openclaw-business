@@ -51,7 +51,7 @@ export default function WaitingPage() {
           </button>
           <p className="text-xs text-muted-foreground mt-6">
             Fragen?{" "}
-            <a href="mailto:hello@usehavoc.com" className="text-foreground hover:underline">hello@usehavoc.com</a>
+            <a href="mailto:support@your-domain.com" className="text-foreground hover:underline">support@your-domain.com</a>
           </p>
         </div>
       </div>

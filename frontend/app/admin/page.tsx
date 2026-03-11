@@ -70,7 +70,7 @@ export default function AdminPage() {
       <div className="card w-80 p-8 space-y-4">
         <div className="flex items-center gap-2 mb-2">
           <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center"><Zap className="w-4 h-4 text-primary" /></div>
-          <div><div className="text-sm font-medium">Havoc Admin</div><div className="text-xs text-muted-foreground">Internal Dashboard</div></div>
+          <div><div className="text-sm font-medium">Admin</div><div className="text-xs text-muted-foreground">Internal Dashboard</div></div>
         </div>
         <input type="password" placeholder="API Key" value={loginVal}
           onChange={e => setLoginVal(e.target.value)}
@@ -108,7 +108,7 @@ export default function AdminPage() {
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center"><Zap className="w-4 h-4 text-primary" /></div>
           <div>
-            <h1 className="text-lg font-medium">Havoc Admin</h1>
+            <h1 className="text-lg font-medium">Admin</h1>
             <p className="text-xs text-muted-foreground uppercase tracking-wider">Internal Dashboard</p>
           </div>
         </div>

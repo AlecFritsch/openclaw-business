@@ -6,7 +6,7 @@ export const tourSteps: Tour[] = [
     steps: [
       {
         icon: '',
-        title: 'Willkommen bei Havoc!',
+        title: 'Willkommen bei OpenClaw Business!',
         content: <>Lass uns kurz durch die wichtigsten Bereiche gehen — dauert nur eine Minute.</>,
         showControls: true,
         showSkip: true,
