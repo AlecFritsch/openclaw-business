@@ -97,6 +97,7 @@
     "heroTitle": "KI-Mitarbeiter\ndie dein Business\nskalieren.",
     "heroDescription": "Autonome KI-Agenten für Support, Sales & Operations — auf WhatsApp, Telegram, Slack und 10+ Channels. Gebaut für Teams. Live in 60 Sekunden.",
     "startBuilding": "Kostenlos testen",
+    "seeLiveExample": "Live-Beispiel ansehen",
     "seeDemo": "Demo buchen",
     "bookDemo": "Demo buchen",
     "trustedBy": "DIE NÄCHSTE GENERATION BUSINESS-KI",
@@ -312,6 +313,7 @@
       "resources": "Ressourcen",
       "legal": "Rechtliches",
       "templates": "Templates",
+      "liveExample": "Live-Beispiel (usehavoc.com)",
       "dashboard": "Dashboard",
       "allRights": "Alle Rechte vorbehalten."
     },

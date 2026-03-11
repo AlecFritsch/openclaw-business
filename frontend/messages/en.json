@@ -97,6 +97,7 @@
     "heroTitle": "AI employees\nthat scale\nyour business.",
     "heroDescription": "Autonomous AI agents for support, sales & operations — on WhatsApp, Telegram, Slack and 10+ channels. Built for teams. Live in 60 seconds.",
     "startBuilding": "Start Free Trial",
+    "seeLiveExample": "See Live Example",
     "seeDemo": "Book a Demo",
     "bookDemo": "Book a Demo",
     "trustedBy": "POWERING THE NEXT GENERATION OF BUSINESS AI",
@@ -312,6 +313,7 @@
       "resources": "Resources",
       "legal": "Legal",
       "templates": "Templates",
+      "liveExample": "Live Example (usehavoc.com)",
       "dashboard": "Dashboard",
       "allRights": "All rights reserved."
     },

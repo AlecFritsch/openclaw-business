@@ -12,6 +12,7 @@ export default function Footer() {
             { label: t('navPricing'), href: '#pricing' },
             { label: t('navFaq'), href: '#faq' },
             { label: t('footer.templates'), href: '/templates' },
+            { label: t('footer.liveExample'), href: 'https://usehavoc.com', external: true },
         ],
         resources: [
             { label: t('footer.dashboard'), href: '/dashboard' },
@@ -41,7 +42,11 @@ export default function Footer() {
                         <ul className="space-y-2">
                             {links.product.map((link) => (
                                 <li key={link.label}>
-                                    <Link href={link.href} className="text-muted-foreground hover:text-foreground text-sm transition-colors">{link.label}</Link>
+                                    {'external' in link ? (
+                                        <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground text-sm transition-colors">{link.label}</a>
+                                    ) : (
+                                        <Link href={link.href} className="text-muted-foreground hover:text-foreground text-sm transition-colors">{link.label}</Link>
+                                    )}
                                 </li>
                             ))}
                         </ul>

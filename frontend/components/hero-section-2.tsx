@@ -73,14 +73,25 @@ export default function HeroSection() {
                                 <h1 className="text-balance font-serif text-4xl font-medium sm:text-5xl">{t('heroTitle')}</h1>
                                 <p className="text-muted-foreground mt-4 text-balance">{t('heroDescription')}</p>
 
-                                <Button
-                                    asChild
-                                    className="mt-6 pr-1.5">
-                                    <Link href="/sign-up">
-                                        <span className="text-nowrap">{t('startBuilding')}</span>
-                                        <ChevronRight className="opacity-50" />
-                                    </Link>
-                                </Button>
+                                <div className="mt-6 flex flex-wrap items-center justify-center gap-4">
+                                    <Button
+                                        asChild
+                                        className="pr-1.5">
+                                        <Link href="/sign-up">
+                                            <span className="text-nowrap">{t('startBuilding')}</span>
+                                            <ChevronRight className="opacity-50" />
+                                        </Link>
+                                    </Button>
+                                    <Button
+                                        asChild
+                                        variant="outline"
+                                        className="pr-1.5">
+                                        <a href="https://usehavoc.com" target="_blank" rel="noopener noreferrer">
+                                            <span className="text-nowrap">{t('seeLiveExample')}</span>
+                                            <ChevronRight className="opacity-50" />
+                                        </a>
+                                    </Button>
+                                </div>
                             </div>
                         </div>
                     </div>

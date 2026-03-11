@@ -10,6 +10,10 @@ Describe your business problem → get a fully deployed agent with automations i
 
 `Next.js 15` · `Fastify 5` · `MongoDB` · `OpenClaw` · `Docker` · `TypeScript`
 
+---
+
+**Live example:** [usehavoc.com](https://usehavoc.com) — AI employees for WhatsApp, Slack, Telegram and more.
+
 </div>
 
 > **Maintainers wanted.** This project is no longer actively maintained by its original author. Anyone interested in maintaining, developing, or hosting it is welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup and how to get involved.
